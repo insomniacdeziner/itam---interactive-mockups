@@ -34,6 +34,7 @@
   &.focus {
     color: @btn-default-color;
     text-decoration: none;
+	
   }
 
   &:active,
@@ -65,6 +66,12 @@
 
 .btn-default {
   .button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+  
+  &:hover,
+  &:focus,
+  &.focus{
+	  background-color: lighten(@regentstblue,15%);
+	 }
 }
 .btn-primary {
   .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
@@ -84,6 +91,13 @@
 // Danger and error appear as red
 .btn-danger {
   .button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+  
+    &:hover,
+  &:focus,
+  &.focus{
+	  background-color: lighten(@btn-danger-color,10%);
+	  color:@white;
+	 }
 }
 
 
