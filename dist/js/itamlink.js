@@ -78,4 +78,8 @@ $(document).ready(function(){
 		$('.table-list').toggle();
 		$(this).find('i').toggleClass('fa fa-expand fa fa-th-list');
 	});
+	
+   $("#checkAll").change(function () {
+	 $("input:checkbox").prop('checked', $(this).prop("checked"));
+	});
 });
