@@ -6966,6 +6966,11 @@ th b {
 #hidden-table-row:hover {
   background-color: #ffffff;
 }
+#hidden-table-row .checkbox {
+  position: relative;
+  top: 24px;
+  line-height: 1.5;
+}
 .hidden-table-footer {
   background-color: #ffffff;
   padding: 10px 0 20px;

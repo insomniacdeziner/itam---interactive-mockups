@@ -44,7 +44,7 @@ $(document).ready(function(){
 	$('.table-expanded').hide();
 	$('.table-expanded').hide();
 	$('#hidden-table-row').hide();
-	$('#fake-row').hide();
+	$('.fake-row').hide();
 	$('#table-inputs').hide();
 	
 	// toggle up/down the caret when clicked

@@ -81,6 +81,9 @@
             <td><a class="btn btn-link"><i class="fa fa-pencil-square-o"></i></a></td>
             <td><a class="btn btn-link"><i class="fa fa-caret-down"></i></a> </td>
           </tr>
+             <tr class="fake-row"> <!-- used to fix zebra stripping -->
+            <td></td>
+          </tr>
           <tr id="table-inputs">
             <td align="center">2</td>
             <td><input class="form-control" placeholder="Amount"></td>
@@ -259,7 +262,7 @@
               <div class="row hidden-table-footer">
                 <div class="col-xs-12">
                   <div class="total-amount">
-                  	<span class="pull-right"><h4><small>Total Amount:</small> $1234, 567.00</h4>
+                  	<span class="pull-right"><h4><small>Total Amount:</small> $1234, 567.00</h4></span>
                   </div>
                 </div>
        		
@@ -275,7 +278,7 @@
               </div>
              </td>
           </tr>
-          <tr id="fake-row"> <!-- used to fix zebra stripping -->
+          <tr class="fake-row"> <!-- used to fix zebra stripping -->
             <td></td>
           </tr>
           <tr data-toggle="tooltip" data-placement="top" title="More information about this table here.">
